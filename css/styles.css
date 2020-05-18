@@ -19,6 +19,23 @@ h1  {
 
 }
 
+
+h2 {
+    font-family: 'Montserrat';
+    font:3rem;
+    line-height: 1.5;
+    font-weight: 800;
+}
+
+h3 {
+    font-family: 'Montserrat';
+    font-weight: 800;
+}
+
+p   {
+    color: grey;
+}
+
 /*Navigation bar*/
 .navbar {
     padding:0 0 4.5rem;
@@ -53,4 +70,60 @@ h1  {
 .title-image {
     width: 60%;
     transform: rotate(25deg);
+}
+
+/************************************************FEATURES SECITON*****************************************************/
+
+ #features {
+    padding: 7% 15%;
+ }
+
+ .feature-box {
+     text-align: center;
+     padding: 5%;
+ }
+
+ .fascolor {
+     color: #ef8172;
+     margin-bottom: 1rem;
+ }
+
+ .fascolor:hover {
+    color: #ff4c68;
+    
+}
+
+/************************************************Testimonials*****************************************************/
+
+#testimonials {
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+
+}
+
+
+.testimg {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-inner {
+    padding: 7% 15%;
+}
+
+/************************************************PRESS*****************************************************/
+
+#press {
+    padding-bottom: 3%;
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+
+}
+
+.presslogo {
+    width: 15%;
+    margin: 20px 20px 50px;
 }
