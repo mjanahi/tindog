@@ -1,42 +1,43 @@
+/*************************************************HTML ELEMENTS*****************************************/
+
 body {
     font-family: 'Montserrat';
 }
 
-#title  {
-    background-color: #ff4c68;
-    color:  #fff;
-}
 
-.container-fluid {
-    padding: 3% 15%;
+h1, h2, h3 ,h4 ,h5 ,h6 {
+    font-family: 'Montserrat', "Ubuntu", sans-serif;
+    line-height: 1.5;
+    font-weight: bold;
+
 }
 
 h1  {
-    font-family: 'Montserrat', "Ubuntu", sans-serif;
     font-size: 3.5rem;
-    line-height: 1.5;
-    font-style: ;
 
 }
 
 
 h2 {
-    font-family: 'Montserrat';
     font:3rem;
-    line-height: 1.5;
     font-weight: 800;
 }
 
-h3 {
-    font-family: 'Montserrat';
-    font-weight: 800;
-}
 
 p   {
     color: grey;
 }
 
+
+
 /*Navigation bar*/
+
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+
 .navbar {
     padding:0 0 4.5rem;
 
@@ -67,15 +68,32 @@ p   {
 }
 
 /*Title Image*/
+
+
+
 .title-image {
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
 }
+
+
+
 
 /************************************************FEATURES SECITON*****************************************************/
 
+.colored-background {
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+
  #features {
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
  }
 
  .feature-box {
@@ -126,4 +144,55 @@ p   {
 .presslogo {
     width: 15%;
     margin: 20px 20px 50px;
+}
+
+/************************************************PRICING*****************************************************/
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+    text-align: center;
+}
+
+/************************************************MEDIA QUERY*****************************************************/
+
+@media (max-width:1028px) {
+    .title-image {
+        position: static;
+        transform: rotate(0deg);
+    }
+
+    #title {
+        text-align: center;
+    }
+
+}
+
+
+#cta {
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    text-align: center;
+    color:#fff;
+
+}
+
+.ctah1 {
+    font-family: 'Montserrat';
+    font-size: 3.5rem;
+    line-height: 1.5;
+
+}
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+
+}
+
+.icon-footer {
+    margin: 20px 10px;
 }
